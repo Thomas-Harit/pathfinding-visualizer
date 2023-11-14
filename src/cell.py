@@ -19,7 +19,6 @@ class Cell(Frame):
 
         self.bind("<Enter>", self.mouse_enter)
         self.bind("<Leave>", self.mouse_leave)
-        self.bind("<Key>", self.make_walked)
         self.bind("<Button-1>", self.left_click)
         self.bind("<Button-3>", self.right_click)
 
